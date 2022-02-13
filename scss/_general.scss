@@ -1,0 +1,26 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+
+body {
+	font-family: 'Inter';
+	background-color: $bg-color;
+	margin: 0;
+	padding: 0;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}

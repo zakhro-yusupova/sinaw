@@ -1,0 +1,134 @@
+.header{
+  padding: 20px 0 56px;
+}
+
+.header__inner{
+  display: flex;
+  align-items: center;
+}
+
+.header__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 148px;
+  margin-right: 400px;
+}
+
+.header__item{
+  margin-right: 44px;
+}
+
+.header__item-link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: 1s ease;
+
+  &:hover{
+    color: $link-color;
+  }
+}
+
+.link-active{
+  color: #FFFFFF;
+}
+
+.header__right{
+  display: flex;
+  align-items: center;
+}
+
+.header__lang-menu{
+  display: none;
+}
+
+.header__lang{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D1D1D7;
+  padding: 10px 0;
+  position: relative;
+  transition: 1.5s ease;
+
+  &::after{
+    content: "";
+    display: block;
+    background-image: url("../images/language.png");
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 24px;
+    position: absolute;
+    top: 7px;
+    left: 35px;
+  }
+
+  &:hover > .header__lang-menu{
+    display: block;
+  }
+}
+
+.header__lang-list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__lang-list{
+  position: absolute;
+  top: 25px;
+  left: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  color:$main-color;
+  background-color: $main-bg;
+  border-radius: 3px;
+}
+
+.header__lang-item{
+  margin:5px 19px 5px 10px;
+}
+
+.header__lang-link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #D1D1D7;
+  transition: 1s ease;
+
+  &:hover{
+    color:$link-color
+  }
+}
+
+.header__log-in{
+  margin-left: 70px;
+}
+
+.link{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: $main-color;
+  background-color: $red-color;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 12px 32px;
+  transition: 1s ease;
+
+  &:hover{
+    border: 1px solid $red-color;
+    background-color: transparent;
+    color: $red-color;
+  }
+}

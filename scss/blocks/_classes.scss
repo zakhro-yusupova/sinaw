@@ -1,0 +1,128 @@
+.classes{
+  padding: 70px 0;
+}
+
+.classes__title-info{
+  text-align: center;
+  margin-bottom:84px ;
+}
+
+.classes__title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.classes__text{
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.classes__list{
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  margin-bottom: 64px;
+  padding: 0;
+}
+
+.classes__item{
+  width: 276px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border-radius: 20px;
+
+  &:hover{
+opacity: 0.8;
+  }
+}
+
+.classes__item + .classes__item{
+  margin-left: 32px;
+}
+
+.classes__item-link{
+  display: block;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.classes__strong{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: $subtitle-color;
+  margin: 24px 0 8px;
+}
+
+.classes__item-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.classes__item-text{
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #292B56;
+}
+
+.classes__mentor-info{
+  display: flex;
+  align-items: flex-start;
+  margin: 19px 0 20px;
+}
+
+.classes__mentor-img{
+  margin-right: 15px;
+}
+
+
+.classes__mentor-title{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+.classes__mentor-text{
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+
+}
+
+.classes__item-sublink{
+  margin: 8px 0 24px 47px;
+}
+
+.classes__link{
+  display: block;
+  width: 174px;
+ color: $red-color;
+ border: 1px solid $red-color;
+ margin: 0 auto;
+ padding: 12px 0 12px;
+ text-align: center;
+ text-decoration: none;
+ border-radius: 6px;
+ padding: 12px 20px;
+ transition: 1s ease;
+
+ &:hover{
+   color: $main-color;
+   background-color: $red-color;
+ }
+}

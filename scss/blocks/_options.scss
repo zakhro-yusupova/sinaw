@@ -1,0 +1,72 @@
+.options{
+padding: 120px 103px;
+}
+
+.options__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.options__item{
+width: 311px;
+
+&:nth-child(1){
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 66px;
+    height: 66px;
+    background-image: url("../images/friends.png");
+    position: absolute;
+    top: -20px;
+    left: -80px;
+  }
+}
+
+&:nth-child(2){
+  position: relative;
+  margin: 0 97px;
+
+  &::before{
+    content: "";
+    width: 66px;
+    height: 66px;
+    background-image: url("../images/mentor.png");
+    position: absolute;
+    top: -20px;
+    left: -80px;
+  }
+}
+
+&:nth-child(3){
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 66px;
+    height: 66px;
+    background-image: url("../images/access.png");
+    position: absolute;
+    top: -20px;
+    left: -80px;
+  }
+}
+}
+
+.options__subtitle{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.options__text{
+  font-size: 14px;
+  line-height: 170%;
+  color: rgba(255, 255, 255, 0.6);
+}
