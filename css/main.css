@@ -697,7 +697,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
-  padding: 0;
 }
 
 .options__item {
@@ -705,6 +704,7 @@ img {
 }
 
 .options__item:nth-child(1) {
+  padding-left: 60px;
   position: relative;
 }
 
@@ -714,8 +714,8 @@ img {
   height: 66px;
   background-image: url("../images/friends.png");
   position: absolute;
-  top: -20px;
-  left: -80px;
+  top: -16px;
+  left: -30px;
 }
 
 .options__item:nth-child(2) {
