@@ -949,20 +949,6 @@ img {
   max-width: 630px;
 }
 
-.webinar__list-link {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 150%;
-  color: white;
-  margin-top: 50px;
-  padding-left: 960px;
-  text-decoration: none;
-  background-image: url("../../images/arrow-right.png");
-  background-repeat: no-repeat;
-  background-position: calc(50% + 550px) calc(50% + 4px);
-}
-
 .pricing {
   padding-top: 60px;
 }
@@ -1347,7 +1333,6 @@ img {
   display: inline-block;
   font-size: 16px;
   line-height: 19px;
-  text-decoration: none;
   text-align: center;
   color: #8F91D0;
   margin: 86px 0 30px;
