@@ -56,8 +56,10 @@
   background: #1F2143;
   border-radius: 12px;
   border: transparent;
-  padding: 22px 0 22px 32px;
+  padding: 22px 30px 22px 32px;
   margin-bottom:48px;
+  appearance: none;
+  outline: 0;
 
   &:focus{
     outline: transparent;

@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template Repo</title>
+  <title>sinaw</title>
 </head>
 <body>
   <!-- site header -->
@@ -47,9 +48,9 @@
           <div class="hero__info">
             <h1 class="hero__title">Grow Your Skills To Advance Your Career Path.</h1>
             <p class="hero__text">We have something big for you who want to level up!</p>
-            <form class="hero__form" action="https://echo.htmlacademy.ru/">
+            <form class="hero__form" action="https://echo.htmlacademy.ru/" method="get">
               <label class="hero__label">
-                <input class="hero__input" type="search" name="course type" placeholder="What do you want to learn...">
+                <input class="hero__input" type="search" name="course type" placeholder="What do you want to learn..." require>
               </label>
               <div class="hero__form-info">
                 <strong class="hero__form-strong">Suggestions</strong>
@@ -130,6 +131,7 @@
                     <p class="classes__mentor-text">Mentor</p>
                   </div>
                 </div>
+                <a href="#" class="classes__item-sublink link"> Access Class </a>
               </a>
             </li>
 
@@ -147,6 +149,7 @@
                     <p class="classes__mentor-text">Mentor</p>
                   </div>
                 </div>
+                <a href="#" class="classes__item-sublink link"> Access Class </a>
               </a>
             </li>
 
@@ -164,10 +167,61 @@
                     <p class="classes__mentor-text">Mentor</p>
                   </div>
                 </div>
+                <a href="#" class="classes__item-sublink link"> Access Class </a>
               </a>
             </li>
           </ul>
           <a class="classes__link" href="#">Show All Classes</a>
+        </div>
+      </div>
+    </section>
+    <!-- webinar section -->
+    <section class="webinar">
+      <div class="container">
+        <div class="webinar__inner">
+          <h2 class="webinar__title">Live Online Webinar</h2>
+          <p class="webinar__text">You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!</p>
+          <div class="webinar__carouesel swiper mySwiper">
+            <ul class="webinar__list swiper-wrapper ">
+
+              <li class="webinar__item swiper-slide">
+                <a href="#" class="webinar__link" >
+                  <img src="./images/carousel-center.png" alt="" class="webinar__img"  width="623" height="424">
+                </a>
+              </li>
+
+              <li class="webinar__item swiper-slide">
+                <a href="#" class="webinar__link" >
+                  <img src="./images/carousel-center.png" alt="" class="webinar__img"  width="623" height="424">
+                </a>
+              </li>
+
+              <li class="webinar__item swiper-slide">
+                <a href="#" class="webinar__link" >
+                  <img src="./images/carousel-center.png" alt="" class="webinar__img"  width="623" height="424">
+                </a>
+              </li>
+
+              <li class="webinar__item swiper-slide">
+                <a href="#" class="webinar__link" >
+                  <img src="./images/carousel-center.png" alt="" class="webinar__img"  width="623" height="424">
+                </a>
+              </li>
+
+              <li class="webinar__item swiper-slide">
+                <a href="#" class="webinar__link" >
+                  <img src="./images/carousel-center.png" alt="" class="webinar__img"  width="623" height="424">
+                </a>
+                </li>
+
+
+              <li class="webinar__item swiper-slide">
+                <a href="#" class="webinar__link" >
+                  <img src="./images/carousel-center.png" alt="" class="webinar__img" width="623" height="424">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -328,5 +382,9 @@
       </div>
     </div>
   </footer>
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/carousel.js"></script>
 </body>
 </html>

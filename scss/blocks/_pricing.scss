@@ -200,12 +200,4 @@
 .last-link{
   margin: 18px 0  30px 30px;
   padding: 12px 62px;
-  background-color: $red-color;
-  color: $main-color;
-
-  &:hover{
-    color: $red-color;
-    background-color: transparent;
-    border: 1px solid $red-color;
-  }
 }
